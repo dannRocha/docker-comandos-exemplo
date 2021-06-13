@@ -34,10 +34,10 @@ docker pull mariadb:latest
 * RODAR: 
 ```sh
 docker run -d \
-			--name mariadb-container \
-			-e MARIADB_ALLOW_EMPTY_ROOT_PASSWORD=yes \
-			-v /home/daniel/Workspace/docker/data-mariadb:/var/lib/mysql \
-			-p 3306:3306 \
-			mariadb:latest
+           --name mariadb-container \
+           -e MARIADB_ALLOW_EMPTY_ROOT_PASSWORD=yes \
+	   -v /home/daniel/Workspace/docker/data-mariadb:/var/lib/mysql \
+	   -p 3306:3306 \
+	    mariadb:latest
 
 ```
