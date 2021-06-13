@@ -1,7 +1,7 @@
 # DOCKER comandos de execução
 
 
-## Postgres
+## [Postgres](https://hub.docker.com/_/postgres)
 
 * OBTER: 
 ```
@@ -25,7 +25,7 @@ docker run -d \
 OBS: ***password*** vai ser a senha para acessar o banco de dados
 
 
-## MariaDB
+## [MariaDB](https://hub.docker.com/_/mariadb)
 * OBTER: 
 ```
 docker pull mariadb:latest
